@@ -1,0 +1,18 @@
+#pragma once
+#include "Gamenemymanager.h"
+#include <DxLib.h>
+
+
+class player{
+	double x, y;
+
+public:
+	double movev;
+	double r;
+	player();
+	double getx();
+	double gety();
+	void update();
+	void draw();
+
+};
